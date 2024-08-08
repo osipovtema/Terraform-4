@@ -1,4 +1,4 @@
-# Автор: Федорчук Дмитрий Сергеевич DEVOPS-33
+
 
 # Домашнее задание к занятию «Использование Terraform в команде»
 
@@ -57,7 +57,7 @@
 
 ![img_7.png](IMG/img_7.png)
 
-3. Закоммитил изменения в ветку terraform-05. [Ссылка](https://github.com/DemoniumBlack/fedorchukds-devops-33-14/tree/terraform-05).
+3. Закоммитил изменения в ветку terraform-05.
 
 4. Открываю terraform console, а в другом окне из этой же директории запускаю terraform apply.
 
@@ -90,9 +90,6 @@
 
 4. Добавил в него комментарий с результатом работы tflint и checkov.
 
-5. Ссылка на PR для ревью:
-
-https://github.com/DemoniumBlack/fedorchukds-devops-33-14/pull/1
 
 ------
 ### Задание 4
@@ -114,7 +111,7 @@ https://github.com/DemoniumBlack/fedorchukds-devops-33-14/pull/1
 
 ![img_12.png](IMG/img_12.png)
 
-Ссылка на код: https://github.com/DemoniumBlack/fedorchukds-devops-33-15/blob/main/SRC/validation/variables_4.tf
+
 
 
 ### Задание 5*
@@ -157,13 +154,3 @@ variable "in_the_end_there_can_be_only_one" {
 
 ![img_15.png](img_15.png)
 
-Ссылка на код: https://github.com/DemoniumBlack/fedorchukds-devops-33-15/blob/main/SRC/validation/variables_5.tf
-
-------
-### Задание 6*
-
-1. Настройте любую известную вам CI/CD-систему. Если вы ещё не знакомы с CI/CD-системами, настоятельно рекомендуем вернуться к этому заданию после изучения Jenkins/Teamcity/Gitlab.
-2. Скачайте с её помощью ваш репозиторий с кодом и инициализируйте инфраструктуру.
-3. Уничтожьте инфраструктуру тем же способом.
-
-# Задание 6 решил пока не делать
